@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.button-link {
+  padding: 20px;
+  background-color: coral;
+  color: white;
+}
+
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+.main-modal {
+  background-color: white;
+  width: 70%;
+  margin: 20% auto;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: coral;
+  padding: 10px;
+  color: white;
+}
+.modal-content {
+  padding: 30px;
+}
+#closebtn {
+  color: grey;
+  font-size: 20px;
+}
+#closebtn:hover,
+#closebtn:focus {
+  color: black;
+  cursor: pointer;
+}
